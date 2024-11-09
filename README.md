@@ -40,7 +40,7 @@ In preparation for next week, complete the following in lab:
 - Test the Firebase Setup
   - Start and stop your server
   - Go to the application it should look like this:
- 
+
 <img width="400" alt="Login Screen" src="https://user-images.githubusercontent.com/29741570/199130975-f6fb8884-ed5b-4d8b-9b7f-5a49b6f93975.png">
 
   - The API key error should also be gone
@@ -50,13 +50,13 @@ In preparation for next week, complete the following in lab:
 
   - After signing in, there should be a Navbar
     - If your screen size is small, the Navbar might be collapsed like in the image below. Click on the hamburger button to open it.
- 
-<img width="400" alt="Logged In Screen" src="https://user-images.githubusercontent.com/29741570/199130976-2136b3dc-a7ca-46d6-a335-efc72fdf79e1.png">  
+
+<img width="400" alt="Logged In Screen" src="https://user-images.githubusercontent.com/29741570/199130976-2136b3dc-a7ca-46d6-a335-efc72fdf79e1.png">
   - Click on the Log Out Button
 
- 
+
  <img width="400" alt="Logout Button" src="https://user-images.githubusercontent.com/29741570/199130970-21e7de43-b6b4-4f01-aeec-961bccf64841.png">
-  
+
   - This should bring back the Login Button
 
 ## TODO 2 - Look at the Code...
