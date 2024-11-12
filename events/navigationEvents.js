@@ -1,5 +1,6 @@
+import { showBooks } from '../pages/books';
 import { signOut } from '../utils/auth';
-
+import { getBooks } from '../api/bookData';
 // navigation events
 const navigationEvents = () => {
   // LOGOUT BUTTON
@@ -13,7 +14,7 @@ const navigationEvents = () => {
 
   // TODO: ALL BOOKS
   document.querySelector('#all-books').addEventListener('click', () => {
-    console.warn('CLICKED ALL BOOKS');
+    getBooks().then(showBooks);
   });
 
   // FIXME: STUDENTS Create an event listener for the Authors
